@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    background-color: #e7e7e7;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.navbar_logo{
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 900;
+    color: #228dff;
+}
+.navbar_list{
+    display: flex;
+    list-style: none;
+}
+.navbar_list-item{
+    margin: 0 1.5rem;
+}
+.navbar_list-item > a {
+    text-decoration: none;
+    color: #228dff;
+}
+.select_input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1.5rem;
+}
+#input{
+    font-size: 1.5rem;
+    padding: .5rem 1.5rem;
+    border-radius: 1.5rem;
+    border: none;
+    background-color: #228dff;
+    color: #fff;
+    outline: none;
+}
+.cards_body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card{
+    width: 250px;
+    height: 300px;
+    background-color: #228dff;
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: .5rem;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #c3c3c3;
+}
+.card_title{
+    font-size: 2rem;
+    font-weight: 900;
+}
+.card_text{
+    font-family: 'Courier New', Courier, monospace;
+}
+.card_button{
+    font-size: 1.5rem;
+    background-color: #b6ff00;
+    color: #000;
+    text-decoration: none;
+    padding: 0 2px;
+}
+.input_body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2.5rem;
+}
+.input_body > input {
+    font-size: 1.5rem;
+    padding: .5rem 1.5rem;
+    border-radius: 1.5rem;
+    border: none;
+    background-color: #228dff;
+    color: #fff;
+    outline: none;
+    margin: 1.5rem;
+}
+.input_body > button {
+    width: 150px;
+    font-size: 1.5rem;
+    padding: .5rem;
+    border-radius: 1.5rem;
+    border: none;
+    background-color: #228dff;
+    color: #fff;
+    outline: none;
+    cursor: pointer;
+}
+.input_body > h1 {
+    font-size: 2rem;
+    font-weight: 900;
+    color: #228dff;
+}
